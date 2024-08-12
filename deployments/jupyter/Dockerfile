@@ -4,9 +4,9 @@ WORKDIR /usr/src/app
 
 RUN pip install jupyterlab
 
-EXPOSE 8000
+EXPOSE 8888
 
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--no-browser", "--allow-root"]
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root"]
 
 
 
